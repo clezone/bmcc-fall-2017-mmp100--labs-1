@@ -1,0 +1,19 @@
+head {
+  border-color: blue
+}
+  body{
+    background-color: blue;
+}
+img{
+  height: 300px;
+}
+section.images{
+background-color: yellow;
+}
+section.link{
+
+}
+section.list{
+  background-color: green;
+  border-color: red;
+}
