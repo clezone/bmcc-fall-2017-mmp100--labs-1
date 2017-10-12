@@ -9,32 +9,61 @@
 	<title>Adele</title>
 	 <link rel="stylesheet" href="css/style.css">
 	 <style>
+	 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: #696969;
+}
 	 	li {
-    float: left;
+    float: right;
 }
 
 li a {
     display: block;
-    color: white;
+    color: #cccccc;
     text-align: center;
-    padding: 16px;
+    padding: 30px;
     text-decoration: none;
 }
-
 li a:hover {
-    background-color:#595959;
+    background-color: #595959;
 }
-	 </style>
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+ </style>
 	 </head>
 <body>
 <ul>
   <li><a href="#songs">songs</a></li>
   <li><a href="#about">about</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <li><a href="#contact">contact</a></li>
  
 </ul>
-<div style="background-color:#595959;color:white;padding:20px;">
-  <h2></h2>
+
+
+<div class="container">
+  <img src="images/7049395511_8205f16145_o.jpg" alt="[Adele]" width="1000" height="300">
+  <div class="center">listen</div>
+</div>
 
 
 </body>
