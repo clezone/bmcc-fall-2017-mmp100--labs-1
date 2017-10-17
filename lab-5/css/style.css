@@ -4,10 +4,46 @@ html {
 	font-size: 1em;
 	font-size: 1rem;
 }
-body {
-    color: blue;
+div{
+	font-size: 1.5rem
+    border: 1rem solid black;
 }
 
-h1 {
-    color: green;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-color: #696969;
+}
+	 	li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #595959;
+}
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 2rem;
+    right: 1rem
+    font-size: 2rem
+    font-size: 3rem;
+}
+
+img { 
+    width: 80%;
+    height: auto;
+    opacity: 0.7;
 }
