@@ -9,14 +9,10 @@ header {
     padding: 15px 15px 15px 15px;
     color: white
 }
-header h1{
-	display: inline;
-}
 
 
 nav ul {
 	margin: 0;
-	display: inline;
 	float: right;
 	list-style: none;
 
