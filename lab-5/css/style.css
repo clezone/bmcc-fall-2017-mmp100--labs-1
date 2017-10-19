@@ -1,6 +1,7 @@
 
 
 body{
+	background-color: #fffeec;
 	margin: 0;
 	font-family: 'Amatic+SC', sans-serif; 
 }
@@ -54,7 +55,6 @@ a.hover{
  	display: block;
  }
 .col {
-	background:#e4d1d1;
 	padding: 20px;
 	margin: 2px;
 	float: left;
