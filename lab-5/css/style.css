@@ -1,0 +1,17 @@
+body{
+  font-family: 'Anton', sans-serif;
+  background-color: #DCDCDC;
+  color: Orange;
+  padding: 2px;
+  text-align: center;
+}
+h2,h3,h4,h5,h6,p,section{
+  font-family: 'Arvo', serif;
+  color: Orange;
+  text-align: justify;
+  font-size: 18px;
+}
+h1{
+  border: 3px;
+  border-style: inset;
+}
