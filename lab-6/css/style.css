@@ -1,0 +1,39 @@
+html,
+body,
+div {
+   padding: 0;
+   margin: 0;
+}
+
+.icon{
+   width:150px;
+   height: 150px;
+   background-image: url('../img/bear.png') ;
+   margin: 10px;
+
+   
+
+}
+
+#its{
+   background-repeat: no-repeat;
+   background-position: 16px 0;
+}
+#its:hover{ 
+   background-position: -150px 0; 
+}
+
+#time{
+   background-position: -150px 0;
+}
+#time:hover{ 
+   background-position: 150px 0;
+}
+
+#hibernation{
+   background-position: 150px 0;
+}
+#hibernation:hover{ 
+   background-position: 0 0; 
+
+}
